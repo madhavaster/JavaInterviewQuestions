@@ -31,5 +31,6 @@ public class MoveZerosAtLast
         }
 
         System.out.println(aList);
-    }
+        Integer[] newIntArray = aList.toArray(new Integer[len]);
+     }
 }
