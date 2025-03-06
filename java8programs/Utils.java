@@ -1,5 +1,6 @@
 package java8programs;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Utils {
@@ -13,5 +14,18 @@ public class Utils {
                 new Course("Docker", "DevOps", 10000, 600, 15000),
                 new Course("Kubernets", "DevOps", 10000, 600, 15000)
         );
+    }
+
+    public static List<Employee> employees() {
+        List<Employee> employees = new ArrayList<>();
+        employees.add(new Employee(1, "Madhava Reddy", "IT", 30000D));
+        employees.add(new Employee(2, "Swapna", "HR", 15000D));
+        employees.add(new Employee(3, "Raghu", "CLOUD", 25000D));
+        employees.add(new Employee(4, "Ravi", "SALES", 35000D));
+        employees.add(new Employee(5, "Sanjeev", "SALES", 30000D));
+        employees.add(new Employee(6, "Shravan", "IT", 28000D));
+        employees.add(new Employee(7, "Praveen", "IT", 26000D));
+        employees.add(new Employee(8, "Phani", "CLOUD", 45000D));
+        return employees;
     }
 }
